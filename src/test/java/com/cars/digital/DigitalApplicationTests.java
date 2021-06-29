@@ -8,7 +8,6 @@ class DigitalApplicationTests {
 
 	@Test
 	void contextLoads() {
-	 String a = "aa";
 	}
 
 }
