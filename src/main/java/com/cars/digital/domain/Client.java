@@ -11,16 +11,16 @@ import lombok.Data;
 public class Client {
 
 	@NotBlank(message = "cin doit pas etre vide")
-	@Pattern(regexp = "[A-Z]{3}", message = "Format non valide")
+	@Pattern(regexp = "[A-Z]{2,3}[0-9]{4,5}", message = "Format non valide")
 	private String cin;
 
-	// @NotBlank
+	@NotBlank
 	private String nom;
 
-	// @NotBlank
+	@NotBlank
 	private String prenom;
 
-	// @NotBlank
+	@NotBlank
 	private Date dateNaissance;
 
 }
