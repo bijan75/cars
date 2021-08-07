@@ -56,7 +56,7 @@ public class LocationService {
 					voitureRespository.save(persistedVoiture);
 				} else {
 
-					System.out.print("Voiture non disponible pour le moment");
+					System.out.print("Voiture non disponible pour le moment ");
 				}
 
 			}
